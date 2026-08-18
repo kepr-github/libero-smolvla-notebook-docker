@@ -1,0 +1,22 @@
+.git
+.ipynb_checkpoints
+*.ipynb
+__pycache__
+*.pyc
+
+# Local/private files. Kept out of Docker build context too.
+private
+*.local.*
+
+# Large runtime artifacts are mounted as Docker volumes instead.
+workdir
+outputs
+runs
+reports
+*.log
+*.safetensors
+*.pt
+*.pth
+*.zip
+*.tar
+*.tar.gz

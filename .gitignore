@@ -1,0 +1,24 @@
+# Local/private notes
+private/
+*.local.*
+
+# Notebook/runtime artifacts
+.ipynb_checkpoints/
+*.ipynb
+runs/
+outputs/
+workdir/
+reports/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large generated artifacts
+*.safetensors
+*.pt
+*.pth
+*.zip
+*.tar
+*.tar.gz
